@@ -20,7 +20,7 @@ class AuthenticatedSessionController extends Controller
         $request->session()->regenerate();
 
         return response()->noContent();
-    }
+    }//session
 
     /**
      * Destroy an authenticated session.
